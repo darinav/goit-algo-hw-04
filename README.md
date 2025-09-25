@@ -1,33 +1,31 @@
-# goit-algo-hw-04
+# Результати завдання 3
 
-*** Результати завдання 3 ***
+--- Testing Sort Algorithms on 100 Random Elements ---  
+Merge Sort: 0.000077 seconds  
+Insertion Sort: 0.000107 seconds  
+Timsort (built-in): 0.000003 seconds  
 
---- Testing Sort Algorithms on 100 Random Elements ---
-Merge Sort: 0.000077 seconds
-Insertion Sort: 0.000107 seconds
-Timsort (built-in): 0.000003 seconds
+--- Testing Sort Algorithms on 1000 Random Elements ---  
+Merge Sort: 0.001000 seconds  
+Insertion Sort: 0.009950 seconds  
+Timsort (built-in): 0.000028 seconds  
 
---- Testing Sort Algorithms on 1000 Random Elements ---
-Merge Sort: 0.001000 seconds
-Insertion Sort: 0.009950 seconds
-Timsort (built-in): 0.000028 seconds
+--- Testing Sort Algorithms on 10000 Random Elements ---  
+Merge Sort: 0.010080 seconds  
+Insertion Sort: 1.046503 seconds  
+Timsort (built-in): 0.000527 seconds  
 
---- Testing Sort Algorithms on 10000 Random Elements ---
-Merge Sort: 0.010080 seconds
-Insertion Sort: 1.046503 seconds
-Timsort (built-in): 0.000527 seconds
+--- Testing Sort Algorithms on 20000 Random Elements ---  
+Merge Sort: 0.025240 seconds  
+Insertion Sort: 4.565582 seconds  
+Timsort (built-in): 0.001427 seconds  
 
---- Testing Sort Algorithms on 20000 Random Elements ---
-Merge Sort: 0.025240 seconds
-Insertion Sort: 4.565582 seconds
-Timsort (built-in): 0.001427 seconds
+--- Testing Sort Algorithms on 50000 Random Elements ---  
+Merge Sort: 0.056660 seconds  
+Insertion Sort: 27.807289 seconds  
+Timsort (built-in): 0.003801 seconds  
 
---- Testing Sort Algorithms on 50000 Random Elements ---
-Merge Sort: 0.056660 seconds
-Insertion Sort: 27.807289 seconds
-Timsort (built-in): 0.003801 seconds
-
-*** Висновки ***
+### Висновки
 В ході емпіричного дослідження ми порівняли продуктивність трьох 
 алгоритмів сортування Insertion Sort, Merge Sort та вбудованого Timsort
 на наборах даних різного розміру, від 100 до 50,000 елементів. 
